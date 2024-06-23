@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/xuxueli/xxl-job-admin:2.4.1 docker://registry.cn-hangzhou.aliyuncs.com/penkerlove/xxl-job:2.4.1
+        skopeo copy docker://docker.io/xuxueli/xxl-job-admin:2.4.0 docker://registry.cn-hangzhou.aliyuncs.com/penkerlove/xxl-job:2.4.0
